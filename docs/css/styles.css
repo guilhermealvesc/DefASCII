@@ -1,5 +1,11 @@
-body {
+
+
+body, html{
     height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     font-family: 'Lato', sans-serif;
 }
 
@@ -9,9 +15,9 @@ body {
 }
 
 .header {
-    background: rgb(0,119,136);
     background: linear-gradient(150deg, rgba(0,119,136,0.9864145487296481) 26%, rgba(7,213,213,1) 73%);     
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-between;
 }
 
@@ -40,9 +46,13 @@ body {
 }
 
 .content {
+    height: 100%;
     width: 90%;
+    display: flex;
     max-width: 700px;
-    margin: auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-self: center;
 }
 
 .info {
@@ -50,11 +60,13 @@ body {
 }
 
 
+
+
+
 .foot {
-    background: rgb(0,119,136);
     background: linear-gradient(150deg, rgba(0,119,136,0.9864145487296481) 26%, rgba(7,213,213,1) 73%); 
     display: flex;
-    justify-content: center;
+    justify-content: center;        
 }
 
 .whiteText {
