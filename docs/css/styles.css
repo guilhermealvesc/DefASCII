@@ -46,23 +46,22 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
+    cursor: pointer;
     padding: 5px;
 }
 
 .content {
-    height: 90%;
-    min-height: fit-content;
     width: 90%;
     display: flex;
     max-width: 800px;
-    justify-content: space-evenly;
     flex-direction: column;
     align-self: center;
+    transition-duration: 0.3s;
 }
 
 .info{
     display: flex;
+    transition-duration: 0.3s;
 }
 
 .img {
@@ -77,10 +76,10 @@ body {
     justify-content: space-around;
 }
 
-.offer {
+.offer {    
     width: 80%;
     align-self: center;
-    justify-content: space-evenly;
+    transition-duration: 0.3s;
 }
 
 .lines {
@@ -98,6 +97,17 @@ body {
     color: white;
 }
 
+
+.hover {
+    transition-duration: 0.3s;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgb(7,213,213);
+}
+
+a:-webkit-any-link, a:visited {
+    color: white;
+    text-decoration: none;
+}
 
 
 
