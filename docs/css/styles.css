@@ -51,13 +51,11 @@ body {
 }
 
 .content {
-    height: 90%;
-    min-height: fit-content;
-    max-height: 100%;
+    height: fit-content;
     width: 90%;
-    display: flex;
     max-width: 800px;
-    justify-content: space-evenly;
+    display: flex;
+    overflow-y: scroll;
     flex-direction: column;
     align-self: center;
 }
