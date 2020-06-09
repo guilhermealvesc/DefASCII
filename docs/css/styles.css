@@ -104,7 +104,7 @@ body {
     box-shadow: 3px 3px 5px rgb(7,213,213);
 }
 
-a:-webkit-any-link, a:visited {
+a, a:visited {
     color: white;
     text-decoration: none;
 }
