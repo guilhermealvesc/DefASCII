@@ -9,9 +9,9 @@ document
         let ref = document
                     .getElementsByClassName("content")[0]
                     .classList
-        ref.toggle("shadow");
+        ref.toggle("shadow-lg");
         await sleep(2000);
-        ref.toggle("shadow");
+        ref.toggle("shadow-lg");
     });
 
 document
@@ -20,9 +20,9 @@ document
         let ref = document
                     .getElementsByClassName("media")[0]
                     .classList
-        ref.toggle("shadow");
+        ref.toggle("shadow-lg");
         await sleep(2000);
-        ref.toggle("shadow");
+        ref.toggle("shadow-lg");
     });
 
 document
@@ -31,8 +31,8 @@ document
         let ref = document
                     .getElementsByClassName("media")[1]
                     .classList
-        ref.toggle("shadow");
+        ref.toggle("shadow-lg");
         await sleep(2000);
-        ref.toggle("shadow");
+        ref.toggle("shadow-lg");
     });
 
