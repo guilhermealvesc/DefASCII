@@ -1,77 +1,132 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet"> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Processo Seletivo Ascii</title>
-</head>
-<body>
-    <header class="header whiteText">
-        <div class="titulo">
-            <h1 class="title" style="font-size: large;">PROCESSO SELETIVO ASCII</h1>
-        </div>
-        <div class="pages">
-            <h3 class="word">Home</h3>
-            <h3 class="word">Quem sou</h3>
-            <h3 class="word">Habilidades</h3>
-            <a class="word" href="https://wa.me/5534991009714?text=Ol%C3%A1%20Valtim!"><h3>Contato</h3></a> 
-        </div>
-    </header>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light header p-3">
+      <a class="navbar-brand text-light title">PROCESSO SELETIVO ASCII</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <section class="content">
-        <div class="info">
-            <div class="img">
-                <img src="images/self-img.jpg" alt="Foto Pessoal">
-            </div>
-            <div class="text">
-                <h3 class="title">Quem sou...</h3>
-                <span class="lines">
-                    Meu nome é Guilherme Alves Carvalho mas sou chamado de Valtim, sou de Uberlândia 
-                    e estou no meu 2º Período de Ciência da Computação na UFU, no momento estou a procura de
-                    novas tecnologias para estudar e estou estudando Desenvolvimento Web no Udemy. 
-                </span>
-            </div>
-        </div>
-        <div class="info">  
-            <div class="img">
-                <img src="images/habilidades.png" alt="hability">
-            </div>
-            <div class="text">
-                <h3 class="title">Minhas habilidades...</h3>
-                <span class="lines">
-                    Possuo conhecimento mediano em linguagens como: C, C++; No momento me considero 
-                    inciante no desenvolvimento web e possuo formação em inglês de nível avançado. 
-                    Também gosto de cumprir minhas tarefas de forma organizada, para que não acumulem
-                    e gerem problemas.
-                </span>
-            </div>
-        </div>
-        <div class="offer" style="text-align: center;">
-            <h3 class="title">O que posso oferecer para a empresa ?</h3>
-            <span class="lines">
-                Uma das coisas que posso oferecer para a empresa é a minha participação 
-                efetiva nos projetos na área de programação, pois gosto muito da área 
-                e gosto de imaginar soluções através de aplicações e softwares. Um ponto 
-                forte meu é a pontualidade na entrega de deveres, o que é um aspecto positivo
-                na área empresarial.             
-            </span>
-        </div>
-
-    </section>
-
-    <footer class="foot">
-        <h3 class="ff whiteText">Desenvolvido com 
-            <img class="icon" height="12px" width="12px" src="images/heart-solid.svg" alt="Coração"> 
-            por Guilherme Alves (valtim)
-        </h3>
-    </footer>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link text-light links">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light links">Quem sou?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light links">Habilidades</a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link text-light"
+              href="https://wa.me/5534991009714?text=Ol%C3%A1%20Valtim!"
+              >Contato</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="content p-3">
+      <ul class="list-unstyled">
+        <li class="media d-flex flex-wrap p-2">
+          <img
+            src="images/self-img.jpg"
+            class="align-self-center mr-3 img-fluid"
+            alt="Guilherme's photo"
+          />
+          <div class="media-body ml-3">
+            <h5 class="mt-0 mb-1 text-bold title">Quem sou?</h5>
+            Meu nome é Guilherme Alves Carvalho mas sou chamado de Valtim, sou
+            de Uberlândia e estou no meu 2º Período de Ciência da Computação na
+            UFU, no momento estou a procura de novas tecnologias para estudar e
+            estou estudando Desenvolvimento Web no Udemy.
+          </div>
+        </li>
+        <li class="media flex-wrap p-2 my-4">
+          <img
+            src="images/habilidades.png"
+            class="align-self-center mr-3 img-fluid"
+            alt="hability-graphic"
+          />
+          <div class="media-body ml-3">
+            <h5 class="mt-0 mb-1 title">Habilidades</h5>
+            Possuo conhecimento mediano em linguagens como: C, C++; No momento
+            me considero inciante no desenvolvimento web e possuo formação em
+            inglês de nível avançado. Também gosto de cumprir minhas tarefas de
+            forma organizada, para que não acumulem e gerem problemas.
+          </div>
+        </li>
+        <li class="media flex-wrap p-2">
+          <div class="media-body offer">
+            <h5 class="mt-0 mb-1 title">O que posso oferecer para a empresa ?</h5>
+            Uma das coisas que posso oferecer para a empresa é a minha
+            participação efetiva nos projetos na área de programação, pois gosto
+            muito da área e gosto de imaginar soluções através de aplicações e
+            softwares. Um ponto forte meu é a pontualidade na entrega de
+            deveres, o que é um aspecto positivo na área empresarial.
+          </div>
+        </li>
+      </ul>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light foot">
+      <div class="container">
+        <a class="nav-link text-light mx-auto word">
+          Desenvolvido com
+          <img
+            class="icon"
+            src="images/heart-solid.svg"
+            alt="Coração"
+            width="12px"
+            height="12px"
+          />
+          por Guilherme Alves (valtim)
+        </a>
+      </div>
+    </nav>
     <script src="script/handlers.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
